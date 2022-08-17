@@ -77,7 +77,7 @@
         <!--View Controller-->
         <scene sceneID="oxO-gv-4NS">
             <objects>
-                <viewController id="UyT-v9-dbE" customClass="ViewController" customModule="TemporaryViewControllerPageTwo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UyT-v9-dbE" customClass="ViewController" customModule="savesum" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BmD-PL-OVC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,6 +116,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgl-gz-qiT" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="903" y="98"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gm3-eT-xlt">
+            <objects>
+                <viewController id="4tn-rK-kU0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fya-zq-1P7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Af3-ki-Ywj">
+                                <rect key="frame" x="42" y="273" width="330" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.30255615479999998" green="0.57259905560000002" blue="0.86767074740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Tip of the day:   **button also takes users to calendar screen**">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.085191640799862495" green="0.19884203919124974" blue="0.41136488656407777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="savesum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGo-H2-BZd">
+                                <rect key="frame" x="131" y="171" width="152" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.085191640799999996" green="0.19884203919999999" blue="0.41136488659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="40"/>
+                                <color key="textColor" red="0.085191640799999996" green="0.19884203919999999" blue="0.41136488659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.085191640799999996" green="0.19884203919999999" blue="0.41136488659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nl3-Je-3Ur"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVU-mW-lri" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-935" y="98"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SCg-yF-gwc">
+            <objects>
+                <viewController id="MXc-G3-bmh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Oj-8B-l8B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Z0-Wn-weS">
+                                <rect key="frame" x="22" y="92" width="372" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.246994668" green="0.39270595130000002" blue="0.75964481309999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="You have $XXX left to spend this month to stay within budget! You got this :)">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hjr-OJ-bhQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbc-JE-baj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1603" y="98"/>
         </scene>
     </scenes>
     <resources>
