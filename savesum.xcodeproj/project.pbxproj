@@ -17,6 +17,8 @@
 		E83D4A3028AD2FB40051AE37 /* savesumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D4A2F28AD2FB40051AE37 /* savesumTests.swift */; };
 		E83D4A3A28AD2FB40051AE37 /* savesumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D4A3928AD2FB40051AE37 /* savesumUITests.swift */; };
 		E83D4A3C28AD2FB40051AE37 /* savesumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D4A3B28AD2FB40051AE37 /* savesumUITestsLaunchTests.swift */; };
+		E83D4A4928AD5C0A0051AE37 /* ExpenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D4A4828AD5C0A0051AE37 /* ExpenseTableViewController.swift */; };
+		E83D4A4B28AD5C410051AE37 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D4A4A28AD5C410051AE37 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E83D4A3528AD2FB40051AE37 /* savesumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = savesumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83D4A3928AD2FB40051AE37 /* savesumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savesumUITests.swift; sourceTree = "<group>"; };
 		E83D4A3B28AD2FB40051AE37 /* savesumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savesumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E83D4A4828AD5C0A0051AE37 /* ExpenseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewController.swift; sourceTree = "<group>"; };
+		E83D4A4A28AD5C410051AE37 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				E83D4A1728AD2FB00051AE37 /* SceneDelegate.swift */,
 				E83D4A1928AD2FB00051AE37 /* ViewController.swift */,
 				E83D4A1B28AD2FB00051AE37 /* Main.storyboard */,
+				E83D4A4828AD5C0A0051AE37 /* ExpenseTableViewController.swift */,
+				E83D4A4A28AD5C410051AE37 /* Expense.swift */,
 				E83D4A2128AD2FB30051AE37 /* Assets.xcassets */,
 				E83D4A2328AD2FB30051AE37 /* LaunchScreen.storyboard */,
 				E83D4A2628AD2FB30051AE37 /* Info.plist */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83D4A4B28AD5C410051AE37 /* Expense.swift in Sources */,
+				E83D4A4928AD5C0A0051AE37 /* ExpenseTableViewController.swift in Sources */,
 				E83D4A2028AD2FB00051AE37 /* savesum.xcdatamodeld in Sources */,
 				E83D4A1A28AD2FB00051AE37 /* ViewController.swift in Sources */,
 				E83D4A1628AD2FB00051AE37 /* AppDelegate.swift in Sources */,

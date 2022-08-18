@@ -37,8 +37,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var monthYearLabel: UILabel!
+    
+    @IBOutlet weak var goalLabel: UILabel!
     
     var s = "Checking to see if the push worked"
 
+    @IBOutlet weak var monthGoalTextField: UITextField!
+    
+    @IBOutlet weak var goalTextField: UITextField!
+    
+    @IBAction func goalPressed(_ sender: Any) {
+        if let monthYear = monthGoalTextField.text {
+            monthYearLabel.text = monthYear
+        }
+        
+        if let goal = goalTextField.text {
+            goalLabel.text = "$\(goal) left"
+        }
+        
+    }
+    
 }
 
