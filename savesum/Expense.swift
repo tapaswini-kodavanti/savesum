@@ -9,7 +9,7 @@ import UIKit
 
 class Expense {
     var title = ""
-    var cost = 0.0
+    var cost : Double = 0.0
     
     init() {
         
