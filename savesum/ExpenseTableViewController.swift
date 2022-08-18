@@ -16,7 +16,7 @@ class ExpenseTableViewController: UITableViewController {
 
         expenses = createExpenses()
         
-        func 
+         
     }
     
     func createExpenses() -> [Expense] {
